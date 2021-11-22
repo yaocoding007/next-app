@@ -5,6 +5,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "pm2start": "pm2-runtime start ecosystem.config.js",
     "lint": "next lint"
   },
   "dependencies": {
